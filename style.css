@@ -1,0 +1,231 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;400;700;900&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: AntiqueWhite;
+}
+
+.titulo{
+  color: OrangeRed;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header > h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 44px;
+  font-weight: bold;
+  margin: 20px 0px 20px 0px;
+}
+
+.seleccionar-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seleccionar-mascota > h2{
+  font-family: 'Poppins', sans-serif;
+  color: FireBrick;
+}
+
+.campos{
+  display: flex;
+  margin: 0 auto;
+  gap: 15px;
+  padding: 10px;
+}
+
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  border-radius: 5px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: Salmon;
+
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: regular;
+  color: white;
+}
+
+.nombre-mascota{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta:hover{
+  font-weight: bold;
+  color: HoneyDew;
+  background-color: DarkSalmon;
+}
+
+input[type=radio]{
+  display: none;
+}
+
+input:checked + p{
+  padding: 4px 6px;
+  color: orangered;
+  font-weight: bold;
+  background-color: HoneyDew;
+  border-radius: 4px;
+}
+
+.tarjeta label > img{
+  width: 70px;
+  height: 70px;
+}
+
+.btn-selecionar-mascota{
+  margin: 10px  0;
+}
+
+.btn-mascota{
+  width: 150px;
+  height: 40px;
+  border: 1px solid LightSalmon;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  background-color: LightSalmon;
+  color: white;
+}
+
+.btn-mascota:hover{
+  color: HoneyDew;
+  font-weight: bold;
+  background-color: DarkSalmon;
+}
+
+.seleccionar-poder{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 div{
+  display: flex;
+  gap: 15px;
+}
+
+.seleccionar-poder section > h2{
+  font-family: 'Poppins', sans-serif;
+  color: FireBrick;
+}
+
+.btn-poder{
+  width: 90px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#btn-fuego{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: 1px solid OrangeRed;
+  border-radius: 5px;
+  background-color: OrangeRed;
+}
+
+#btn-agua{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: 1px solid DeepSkyBlue;
+  border-radius: 5px;
+  background-color: DeepSkyBlue;
+}
+
+#btn-tierra{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  border: 1px solid SaddleBrown;
+  border-radius: 5px;
+  background-color: SaddleBrown;
+}
+
+.btn-poder:hover{
+  font-weight: bold;
+}
+
+.mensaje{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  /* height: 35px; */
+  padding: 20px;
+  margin: 20px 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24;
+  color: HoneyDew;
+  border: 1px solid DarkSalmon;
+  border-radius: 5px;
+  background: DarkSalmon;
+}
+
+#btn-reiniciar{
+  border: none;
+  background-color: transparent;
+  color: OrangeRed;
+  font-family: 'Poppins', sans-serif;
+}
+
+#btn-reiniciar:hover{
+  border:  1px solid  white;
+  border-radius: 8px;
+  padding: 5px
+  background-color: transparent;
+  color: DarkRed;
+  font-weight: bold;
+}
+
+.duelo{
+  display: grid;
+  grid-template-columns: 120px 120px;
+  border: 1px solid DarkSalmon;
+}
+
+.caracteristicas{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nombre-mascota-jugador{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: orangered;
+}
+
+.nombre-mascota-enemiga{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  color: orangered;
+}
