@@ -1,0 +1,22 @@
+{
+  "name": "mokepon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/crysod/mokepon.git"
+  },
+  "author": "Cristian F. Ortega Diaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crysod/mokepon/issues"
+  },
+  "homepage": "https://github.com/crysod/mokepon#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
